@@ -1,0 +1,250 @@
+body {
+    background-color: #FDFDFD;
+	font-family: 'Lato', 'Arial', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	color: #333;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+a {
+	color: #555;
+	text-decoration: none;
+}
+
+.container {
+	width: 100%;
+	position: relative;
+}
+
+.clr {
+	clear: both;
+	padding: 0;
+	height: 0;
+	margin: 0;
+}
+
+.container > header {
+	margin: 10px;
+	padding: 20px 10px 10px 10px;
+	position: relative;
+	display: block;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.container > header h1 {
+	font-size: 30px;
+	line-height: 38px;
+	margin: 0;
+	position: relative;
+	font-weight: 300;
+	color: #666;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.7);
+}
+
+.container > header h2 {
+	font-size: 14px;
+	font-weight: 300;
+	margin: 0;
+	padding: 15px 0 5px 0;
+	color: #888;
+	font-family: Cambria, Georgia, serif;
+	font-style: italic;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.9);
+}
+
+/* Header Style */
+.codrops-top {
+	line-height: 24px;
+	font-size: 11px;
+	background: #fff;
+	background: rgba(255, 255, 255, 0.5);
+	text-transform: uppercase;
+	z-index: 9999;
+	position: relative;
+	font-family: Cambria, Georgia, serif;
+	box-shadow: 1px 0px 2px rgba(0,0,0,0.2);
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+
+.codrops-top:before,
+.codrops-top:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.codrops-top:after {
+    clear: both
+}
+
+.codrops-top a {
+	padding: 0px 10px;
+	letter-spacing: 1px;
+	color: #333;
+	display: inline-block;
+}
+
+.codrops-top a:hover {
+	background: rgba(255,255,255,0.6);
+}
+
+.codrops-top span.right {
+	float: right;
+}
+
+.codrops-top span.right a {
+	float: left;
+	display: block;
+}
+
+/*分割线*/
+.cutoffrule{
+    width: 90%;
+    height:1px;
+    background-color: #C7C7C7;
+    margin:0 auto;
+}
+
+/*小图标*/
+.icons {
+    display: block;
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    background-image: url(../img/icon_icons.png);
+    margin-right: 10px;
+}
+/*icons图标中小图标定位*/
+.ico1a{
+    background-position: 0px 0px;
+}
+.ico3a{
+    background-position: 0px -60px;
+}
+.ico3b{
+    background-position: -30px -60px;
+}
+.ico4a{
+    background-position: 0px -90px;
+}
+.ico4b{
+    background-position: -30px -90px;
+}
+.ico5a{
+    background-position: 0px -120px;
+}
+.ico5b{
+    background-position: -30px -120px;
+}
+.ico7a{
+    background-position: 0px -180px;
+}
+.ico7b{
+    background-position:  -30px -180px;
+}
+.ico8a{
+    background-position: 0px -210px;
+}
+.ico8b{
+
+    background-position: -30px -210px;
+}
+/*左侧内容*/
+.divwidth{
+    width:200px;
+    height:50px;
+    border:1px solid #C7C7C7;
+    padding:10px 0 0 15px;
+}
+.divwidth>a{
+    color: #C7C7C7;
+}
+.divwidth>a:hover{
+    color: #FF6000;
+}
+
+.divwidth>a>div{
+   float: left;
+   font-size: 20px;
+}
+.resume_status{
+    margin-top: 20px;
+    padding:20px 0 0 20px;
+    border-top:2px solid #F8BE13;
+    border-bottom:1px solid #C7C7C7;
+    border-left:1px solid #C7C7C7;
+    border-right:1px solid #C7C7C7;
+    width:200px;
+    height:200px;
+}
+
+#baseInfo>div{
+    float: left;
+}
+.baseInfoa{
+    height: 200px;
+    width:800px;
+    margin-left: 20px;
+    border-bottom:1px solid #C7C7C7;
+}
+.baseInfob{
+    border:1px solid #FF6000;
+}
+.basefont{
+    float: left;
+    font-size: 20px;
+   font-weight: bold;
+    color: #FF6000;
+}
+.phone{
+    margin-left: 12px;
+    float: left;
+    width: 120px;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 20px;
+    background: url(../img/y2.png) no-repeat;
+}
+.email{
+    float: left;
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 25px;
+    background: url(../img/y3.png) no-repeat;
+}
+.changea{
+    margin-left: 350px;
+    margin-top: 10px;
+    width:20px;
+    height:20px;
+    background: url(../img/icon_resume.png) no-repeat;
+    background-position: -260px -20px;
+    display: none;
+}
+.changeb {
+    background-position: -280px -20px;
+}
+.changeb:hover{
+    cursor: pointer;
+}
+
+.samestyle{
+    margin: 30px 0 0 20px;
+
+}
+
+.addstyle{
+    font-size: 15px;
+    font-weight: bold;
+    color: #C7C7C7;
+    margin:5px 0 0 700px;
+}
+.addstyle:hover{
+    color: #FF6000;
+    cursor: pointer;
+}
+
